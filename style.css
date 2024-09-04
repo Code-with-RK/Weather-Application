@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 15px 15px;
+  padding: 30px 15px 15px;
 }
 
 header input {
@@ -68,7 +68,7 @@ main {
 
 .current .temp {
   color: #fff;
-  font-size: 102px;
+  font-size: 80px;
   font-weight: 900;
   margin: 30px 0px;
   text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
@@ -93,3 +93,40 @@ main {
   font-weight: 500;
   text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
 }
+
+.days-forecast h2{
+  font-size: 1.5rem;
+  margin: 10px 0;
+  
+  }
+  
+  .weather-cards {
+      display: flex;
+      gap: 20px;
+  }
+  
+  .weather-cards .card{
+  list-style: none;
+  color: #fff;
+  padding: 18px 16px;
+  border-radius: 5px;
+  background-color: #a4ddfcdb;
+  width: calc(100% / 5);
+  }
+  
+  .weather-cards .card img{
+      max-width: 75px;
+      margin: 5px 0 -12px 0;
+  
+  }
+
+.days-forecast{
+  text-align: center;
+  color: aquamarine;
+}
+
+  li .card{
+    justify-content: center;
+    align-items: center;
+  }
+  
